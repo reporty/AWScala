@@ -70,3 +70,4 @@ build.log
 .cache-tests
 *.log
 
+.flattened-pom.xml
