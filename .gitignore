@@ -27,6 +27,8 @@ syntax: glob
 # idea
 .idea/*
 !.idea/runConfigurations/
+# NOTE:: IS - iml file are generated and should not be included, IDEA always changes them.
+*.iml
 
 # building
 target
