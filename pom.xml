@@ -8,6 +8,7 @@
 	</parent>
 	<artifactId>AWScala</artifactId>
 	<name>AWScala</name>
+	<version>1.0.0</version>
 
 	<licenses>
         <license>
