@@ -114,7 +114,6 @@
             <version>${awssdk.version}</version>
         </dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-applicationautoscaling -->
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-applicationautoscaling</artifactId>
