@@ -65,6 +65,11 @@ trait DynamoConditions[A] {
     .withAttributeValueList(values.map(v => AttributeValue.toJavaValue(v)).asJava)
     .value
 
+  def inUsingNumbers(values: Seq[Int]) = cond
+    .withComparisonOperator(aws.model.ComparisonOperator.IN)
+    .withAttributeValueList(values.map(v => AttributeValue.toJavaValue(v)).asJava)
+    .value
+
   def between(values: Any*) = cond
     .withComparisonOperator(aws.model.ComparisonOperator.BETWEEN)
     .withAttributeValueList(values.map(v => AttributeValue.toJavaValue(v)).asJava)
