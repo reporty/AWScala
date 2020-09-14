@@ -114,7 +114,13 @@
             <version>${awssdk.version}</version>
         </dependency>
 
-        <dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-applicationautoscaling</artifactId>
+			<version>${awssdk.version}</version>
+		</dependency>
+
+		<dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>${jodatime.version}</version>
